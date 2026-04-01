@@ -1,4 +1,4 @@
-## Issue with Micronaut's NettyHttpRequest.getBody()
+## Issue with Micronaut's NettyHttpRequest.getBody() [Issue #12591](https://github.com/micronaut-projects/micronaut-core/issues/12591)
 This repo demonstrates that `NettyHttpRequest.getBody()` returns an empty body even when the original HTTP request 
 does indeed contain a body. This is evidenced through the running of the test [canAccessGetBodyOfNettyHttpRequest](src/test/java/com/example/NettyhttprequestIssueTest.java).
 
